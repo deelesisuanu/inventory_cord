@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.inventory.dele.pharma"
+    },
+    "cordova-plugin-snackbar": {
+      "PACKAGE_NAME": "com.inventory.dele.pharma"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-snackbar/www/materialSnackbar.js",
+      "id": "cordova-plugin-snackbar.MaterialSnackbar",
+      "pluginId": "cordova-plugin-snackbar",
+      "clobbers": [
+        "cordova.plugins.snackbar"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-snackbar": "2.2.1"
+  }
+}
